@@ -14,10 +14,10 @@ bot.on('message', message => {
         });
     }
 
-    if (msg === prefix + 'image') {
-        message.channel.send('🔞', {
+    if (msg === prefix + 'animale') {
+        message.channel.send('Animal', {
             files: [
-                "https://i.imgur.com/hd1v8Pr.png"
+                "https://placeimg.com/640/480/animals"
             ]
         });
     }
