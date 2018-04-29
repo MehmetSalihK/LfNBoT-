@@ -6,7 +6,7 @@ bot.on('message', message => {
     var prefix = '-'
     var msg = message.content;
 
-    if (msg === prefix + 'image') {
+    if (msg === prefix + 'csc') {
         message.channel.send('🔞', {
             files: [
                 "./images/image-to-send.png"
@@ -17,7 +17,7 @@ bot.on('message', message => {
     if (msg === prefix + 'animale') {
         message.channel.send('Animal', {
             files: [
-                "https://placeimg.com/640/480/animals"
+                <img src="https://placeimg.com/640/480/any.png">
             ]
         });
     }
