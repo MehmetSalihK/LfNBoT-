@@ -14,8 +14,8 @@ bot.on('message', message => {
         });
     }
 
-    if (msg === prefix + 'animale') {
-        message.channel.send('Animal', {
+    if (msg === prefix + 'random') {
+        message.channel.send('Random PHOTO📷', {
             files: [
                 <img src="https://placeimg.com/640/480/any.png">
             ]
