@@ -17,7 +17,7 @@ bot.on('message', message => {
     if (msg === prefix + 'random') {
         message.channel.send('Random PHOTO📷', {
             files: [
-                <img src="https://placeimg.com/640/480/any.png">
+                "https://placeimg.com/640/480/any.png"
             ]
         });
     }
